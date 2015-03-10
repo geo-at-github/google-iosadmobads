@@ -4,7 +4,7 @@ Copyright (c) 2014 AppFeel. All rights reserved.
 Use of this source code is governed by a MIT license that can be
 found in the LICENSE file.
 -->
-<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0" version="1.0.0" id="com.google.libgoogleadmobads">
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0" version="1.1.0" id="com.google.libgoogleadmobads">
   <name>iOS Google AdMob Ads library</name>
   <description>iOS Google AdMob Ads library base dependency for other plugins</description>
   <author>AppFeel</author>
@@ -18,22 +18,9 @@ found in the LICENSE file.
   </engines>
   
   <platform name="ios">
-    <!-- Google AdMob header files -->
-    <header-file src="src/ios/GADAdMobExtras.h" />
-    <header-file src="src/ios/GADAdNetworkExtras.h" />
-    <header-file src="src/ios/GADAdSize.h" />
-    <header-file src="src/ios/GADBannerView.h" />
-    <header-file src="src/ios/GADBannerViewDelegate.h" />
-    <header-file src="src/ios/GADInAppPurchase.h" />
-    <header-file src="src/ios/GADInAppPurchaseDelegate.h" />
-    <header-file src="src/ios/GADInterstitial.h" />
-    <header-file src="src/ios/GADInterstitialDelegate.h" />
-    <header-file src="src/ios/GADModules.h" />
-    <header-file src="src/ios/GADRequest.h" />
-    <header-file src="src/ios/GADRequestError.h" />
+    <!-- Google AdMob framework -->
+    <framework src="src/ios/GoogleMobileAds.framework" />
     
-    <source-file src="src/ios/libGoogleAdMobAds.a" framework="true" />
-
     <!-- iOS development frameworks needed by Google AdMob framework -->
     <framework src="AdSupport.framework" />
     <framework src="AudioToolbox.framework" />
