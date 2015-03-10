@@ -19,9 +19,6 @@ found in the LICENSE file.
   
   <platform name="ios">
     <!-- Google AdMob framework -->
-    <source-file src="src/ios/GoogleMobileAds.framework/GoogleMobileAds" target-dir="Plugins/com.ios.libgoogleadmobads/GoogleMobileAds.framework/GoogleMobileAds" />
-    <source-file src="src/ios/GoogleMobileAds.framework/Headers" target-dir="Plugins/com.ios.libgoogleadmobads/GoogleMobileAds.framework/Headers" />
-
     <framework src="src/ios/GoogleMobileAds.framework" custom="true" />
     
     <!-- iOS development frameworks needed by Google AdMob framework -->
