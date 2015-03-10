@@ -19,7 +19,7 @@ found in the LICENSE file.
   
   <platform name="ios">
     <!-- Google AdMob framework -->
-    <source-file src="src/ios/GoogleMobileAds.framework" framework="true" />
+    <framework src="src/ios/GoogleMobileAds.framework" custom="true" />
     
     <!-- iOS development frameworks needed by Google AdMob framework -->
     <framework src="AdSupport.framework" />
