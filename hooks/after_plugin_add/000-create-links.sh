@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-echo $PWD
-cp -r ./plugins/com.ios.libgoogleadmobads/src/ios/GoogleMobileAds.framework/Versions/A/Headers/ ./plugins/com.ios.libgoogleadmobads/src/ios/GoogleMobileAds.framework/Headers
-cp -r ./plugins/com.ios.libgoogleadmobads/src/ios/GoogleMobileAds.framework/Versions/A/GoogleMobileAds cp -r ./plugins/com.ios.libgoogleadmobads/src/ios/GoogleMobileAds.framework/GoogleMobileAds
-cp -r ./plugins/com.ios.libgoogleadmobads/src/ios/GoogleMobileAds.framework/Versions/A/ cp -r ./plugins/com.ios.libgoogleadmobads/src/ios/GoogleMobileAds.framework/Versions/Current
+cp -r $1/plugins/com.ios.libgoogleadmobads/src/ios/GoogleMobileAds.framework/Versions/A/Headers/ $1/plugins/com.ios.libgoogleadmobads/src/ios/GoogleMobileAds.framework/Headers
+cp -r $1/plugins/com.ios.libgoogleadmobads/src/ios/GoogleMobileAds.framework/Versions/A/GoogleMobileAds $1/plugins/com.ios.libgoogleadmobads/src/ios/GoogleMobileAds.framework/GoogleMobileAds
+cp -r $1/plugins/com.ios.libgoogleadmobads/src/ios/GoogleMobileAds.framework/Versions/A/ $1/plugins/com.ios.libgoogleadmobads/src/ios/GoogleMobileAds.framework/Versions/Current
